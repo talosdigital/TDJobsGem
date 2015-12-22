@@ -1,0 +1,7 @@
+--no-cache
+--no-private
+--exclude spec
+--exclude log
+--exclude bin
+--markup markdown
+--template-path yard/template/
