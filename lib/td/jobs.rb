@@ -6,6 +6,5 @@ require 'td/jobs/models'
 
 module TD
   module Jobs
-    # Your code goes here...
   end
 end

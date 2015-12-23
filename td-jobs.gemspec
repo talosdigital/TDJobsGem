@@ -16,6 +16,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "A Ruby wrapper for TDJobs."
   spec.homepage      = "https://github.com/talosdigital/TDJobsGem"
+  spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "bin"

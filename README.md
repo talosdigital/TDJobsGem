@@ -1,4 +1,4 @@
-# TD-Jobs Gem
+# TDJobsGem
 #### *A Ruby wrapper for TDJobs.*
 
 This ruby gem wraps the [TDJobs] functionality, making its usage easier. You can improve your
@@ -6,7 +6,7 @@ development performance by using this gem, because you will only have to handle 
 methods that will do the hard work for you!
 
 ## Dependencies
-*TD-Jobs Gem* has the following dependencies:
+*TDJobsGem* has the following dependencies:
 -  [httparty] 0.13.5
 -  [activesupport] 4.2.3
 
@@ -15,11 +15,7 @@ methods that will do the hard work for you!
 In order to use this gem in your application, add the following lines to your Gemfile:
 
 ```ruby
-git_source(:talos_github) do |repo_name|
-  "https://0104375524f8a45f3a9101a2e0816302206c813d@github.com/talosdigital/#{repo_name}.git"
-end
-
-gem 'td-jobs', talos_github: 'TDJobsGem'
+gem 'td-jobs', git: 'https://github.com/talosdigital/TDJobsGem.git'
 ```
 
 And then execute:
@@ -28,7 +24,7 @@ And then execute:
 
 ## Setup
 
-You are almost ready to use the gem. Before using any *TD-Jobs Gem* method you should perform some
+You are almost ready to use the gem. Before using any *TDJobsGem* method you should perform some
 configurations as follows:
 
 - **base_url**: Base URL where your [TDJobs] server is running.
